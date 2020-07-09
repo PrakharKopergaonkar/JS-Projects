@@ -6,5 +6,6 @@ Simple frontend projects to enhance javascript skills
 | Index | Project Name | Link
 | --------------- | --------------- |--------------- | 
 | 1 | Color Flipper | [Color Flipper](./Color_flipper/)
-| 2 | Counter | [Counter](./Counter/)
-| 3 | Meditation App | [Meditation App](./Meditation_App/)
+| 2 | Counter | [Counter](./Counter/) |
+| 3 | Meditation App | [Meditation App](./Meditation_App/) |
+| 4 | Reviews App | [Reviews](./Reviews/) |
