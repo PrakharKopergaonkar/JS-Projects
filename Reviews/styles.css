@@ -135,7 +135,7 @@ p {
 }
 /*  global classes */
 
-.btn {
+.btn-random {
   text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
@@ -149,9 +149,9 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-.btn:hover {
+.btn-random:hover {
   color: var(--clr-white);
-  background: var(--clr-black);
+  background: var(--clr-primary-3);
 }
 /* section */
 .section {
