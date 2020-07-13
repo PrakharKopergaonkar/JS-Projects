@@ -10,3 +10,4 @@ Simple frontend projects to enhance javascript skills
 | 3 | [Meditation App](./Meditation_App/) |
 | 4 |  [Reviews](./Reviews/) |
 | 5 |  [Questions](./Questions/) |
+| 6 |  [Slider](./Slider/) |
