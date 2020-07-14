@@ -12,3 +12,4 @@ Simple frontend projects to enhance javascript skills
 | 5 |  [Questions](./Questions/) |
 | 6 |  [Slider](./Slider/) |
 | 7 |  [Modal](./Modal/) |
+| 8 |  [Video](./Video/) |
