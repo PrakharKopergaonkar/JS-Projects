@@ -13,3 +13,6 @@ Simple frontend projects to enhance javascript skills
 | 6 |  [Slider](./Slider/) |
 | 7 |  [Modal](./Modal/) |
 | 8 |  [Video](./Video/) |
+| 9 |  [Paragraph generator](./Paragraph_generator/) |
+
+
