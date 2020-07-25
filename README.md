@@ -14,5 +14,6 @@ Simple frontend projects to enhance javascript skills
 | 7 |  [Modal](./Modal/) |
 | 8 |  [Video](./Video/) |
 | 9 |  [Paragraph generator](./Paragraph_generator/) |
+| 10 |  [Tabs](./Tabs/) |
 
 
