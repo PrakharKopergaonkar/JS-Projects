@@ -5,7 +5,7 @@ const insertx = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const inserty = ["the soup kitchen", "Disneyland", "the White House"];
 const insertz = ["spontaneously combusted","melted into a puddle on the sidewalk","turned into a slug and crawled away"];
 
-const paragraph = document.querySelectorAll(".story");
+const paragraph = document.getElementsByClassName("story");
 const name_input = document.getElementById("customname");
 
 
@@ -40,7 +40,7 @@ function generateParagraph() {
         text['94 fahrenheit'] = '94 farenheit';
         text['300 pounds'] = '300 pounds';
     }
-    
+
     let storyText_replaced = storyText.replace(/:insertx:|:inserty:|:insertz:|Bob|94 fahrenheit|300\spounds/g, function a(matched){
         return text[matched];
     });
