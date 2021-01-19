@@ -24,18 +24,22 @@ function generatepara(value) {
 const form = document.querySelector('.lorem-form');
 const amount = document.getElementById('amount')
 const result = document.querySelector('.lorem-text');
+const alert = document.getElementById("warning");
 
 form.addEventListener('submit',(e) => {
+  alert.innerHTML = '';
   e.preventDefault(); //Prevents from form submitting to server
   result.innerHTML = "";
   let value = parseInt(amount.value);
   if(isNaN(value) || value<0 || value > 10) {
-    value = getRandomNumber(10);
+    alert.innerHTML = 'Invalid input can only give input an Integer from 0-10';
   }
-  generatepara(value);
-  //For counting number of paras generated
-  paras = result.querySelectorAll('.result');
-  console.log(paras.length)
+  else {
+    generatepara(value);
+    //For counting number of paras generated
+    paras = result.querySelectorAll('.result');
+    console.log(paras.length)
+  }
 })
 
 
